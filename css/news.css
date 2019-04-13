@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&subset=cyrillic');
+
+@import url('https://fonts.googleapis.com/css?family=Pattaya|Open+Sans:300,400&subset=cyrillic');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic');
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+@import url('font.css');
+
+html {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fa, .fas {
+  padding-left: 5px;
+}
+
+a { 
+  text-decoration: none;
+  color: #007ea7;
+} 
+
+.wrapHead {
+  width: 100%;
+  /* background-color: brown; */
+  margin: 0 auto;
+
+}
+
+.container {
+  width: 1110px;
+  padding: 0 10px;
+  margin: 0 auto;
+  
+}
+
+.headLogo {
+  width: 100%;
+  height: 100px;
+}
+
+.left img {
+  width: 360px;
+  height: 76px;  
+  float: left;
+  margin-top: 12px;
+}
+
+.right {
+  display: block;
+  width: 260px;
+  height: 76px;
+  text-align: right;
+  float: right;
+  margin-top: 12px;
+}
+
+.right strong {
+  display: block;
+  color: #007ea7;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;  
+}
+
+.right small {
+  font-size: 14px;
+}
+
+.fa-phone-square:before {
+  content: "\f098";
+  padding-right: 20px;
+  /* font-size: 29px; */
+}
+
+
+/* ////////////////////////// MENU ///////////////////////// */
+
+.wrpMenu {
+  width: 100%;
+  background-color: #172C33;
+  /* position: relative; */
+}
+
+.mainMenu {
+  width: 1110px;
+  height: 40px;
+  margin: auto;
+}
+
+/*Strip the ul of padding and list styling*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+/*Create a horizontal list with spacing*/
+li {
+  display:inline-block;
+  float: left;
+  margin-right: 1px;
+}
+/*Style for menu links*/
+li a {
+  display: block;
+  min-width: 140px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  background: #172C33;;
+  text-decoration: none;
+}
+/*Hover state for top level links*/
+li:hover a {
+  background: #405860;
+} 
+/*Style for dropdown links*/
+li:hover ul a {
+  background: #f3f3f3;
+  color: #415258;
+  height: 40px;
+  line-height: 40px;
+}
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+  background: #405860;
+  color: #fff;
+}
+/*Hide dropdown links until they are needed*/
+li ul {
+  display: none;
+}
+/*Make dropdown links vertical*/
+li ul li {
+  display: block;
+  float: none;
+}
+/*Prevent text wrapping*/
+li ul li a {
+  width: auto;
+  min-width: 100px;
+  padding: 0 20px;
+}
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden, .hidden:hover {
+  display: block;
+}
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+  text-decoration: none;
+  color: #fff;
+  background: #172C33;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #414F54;
+  display: none;
+}
+/*Hide checkbox*/
+input[type=checkbox]{
+  display: none;
+}
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+  display: block;
+}
+
+
+.container {
+  width: 1110px;
+  padding: 0 10px;
+  margin: 0 auto;  
+}
+
+
+/* CONTENT ---------------------------------------*/
+.wrpPape {
+  width: 100%;
+  /* min-width: 430px; */
+  overflow: hidden;
+  background-color: #eeeeee;
+}
+  .wrpTwenty {
+    width: 100%;
+    height: 20px;
+    background-color: #eeeeee;    
+    
+  }
+
+  .zagolovok {
+    width: 1110px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  .zagolovok span {
+    font-size: 16px;
+    color: #007ea7;
+    
+  }
+
+  .wrpMainContent {
+    width: 100%;
+    
+  }
+
+  .mainContent {
+    width: 1110px;
+    /* height: 700px; */
+    overflow: hidden;
+    margin: 0 auto; 
+    box-sizing: border-box;    
+    padding-top: 60px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    margin-top: 30px;
+    background-color: #fff;
+  }
+/*ffffffffffffffffffffffffffffffffffffff*/
+.textPlusReklama {
+  width: 66%;
+  height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* background-color: #415258; */
+  box-sizing: border-box;
+  float: left;
+}
+
+/*wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww*/
+  .mainContent h1{
+    width: 100%;
+    padding-bottom: 30px;
+    font-size: 36px;
+    float: left;
+  }
+
+/******************НОВЫЙ БЛОК НОВОСТЕЙ*********************/
+.topOne {
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+.imgOne {
+  /* width: 200px; */
+  height: 100%;
+}
+
+.imgOne img {
+  width: 100px;
+  height: 100px;
+}
+
+ 
+.textOne {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+/*   background-color: #A30F36; */
+  padding: 0 15px;
+  overflow: hidden;
+}
+
+.textOne p {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.textOne small {
+  display: block;
+  padding-top: 15px;
+}
+
+.bottomOne {
+  width: 100%;
+  height: 100%;
+/*   overflow: auto; */
+}
+
+.bottomOne p {
+  padding-top: 15px; 
+  /* padding-bottom: 15px;  */
+}
+
+.bottomOne p:last-child {
+  padding-bottom: 30px; 
+}
+
+.fa-calendar-alt:before {
+  content: "\f073";
+  padding-right: 5px;
+}
+
+.textOne p {
+  display: inline-block;
+}
+
+/***********************КОНЕЦ НОВОГО БЛОКА НОВОСТЕЙ*****************/
+
+.plusReklama {
+  width: 34%;
+  height: 300px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* background-color: #405860; */
+  box-sizing: border-box;
+  float: right;
+}
+
+ 
+  /* FOOOOTER */
+  .wrapFoo {
+    width: 100%;
+    height: 220px;
+    padding-top: 30px;    
+    background-color: #172C33;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .contFoo {
+    width: 1140px;
+    height: 200px;
+    margin: auto;
+    box-sizing: border-box;
+    /* padding: 20px 15px; */
+    color: white;  
+  }
+  
+  .blocTel {
+    /* position: relative; */
+    float: left;
+    margin-right: 30px;
+    width: 255px;
+    line-height: 30px;
+    text-align: right;
+  }
+  
+  .blocTel strong {
+    display: block;
+    color: #00A8E8;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+  }
+  
+  .blocMenuOne {
+    /* position: relative; */
+    float: left;
+     margin-right: 30px;
+    display: block;
+    width: 255px;
+    /* background-color: #33AF5D; */
+    line-height: 30px;
+  }
+
+  .blocMenuOne a {
+    padding-left: 60px;
+    color: #eeeeee;
+    display: block;
+    text-decoration: none;  
+  }  
+
+  .blocMenuOne a:hover {
+    display: block;
+    color: #00A8E8;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .blocMenuTwo {
+    /* position: relative; */
+    float: left;
+    margin-right: 30px;
+    display: block;
+    width: 255px;
+    line-height: 30px;
+  }
+
+  .blocMenuTwo a {
+    color: #eeeeee;
+    display: block;
+    text-decoration: none;  
+  }  
+
+  .blocMenuTwo a:hover {
+    display: block;
+    color: #00A8E8;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .blocCopy {
+    /* position: relative; */
+    float: left;
+    display: block;
+    width: 255px;
+    line-height: 30px;
+  }
+
+  .blocCopy span {
+    padding-left: 10px;
+  }
