@@ -1,0 +1,8 @@
+User-agent: *
+Allow: *.css
+Allow: /css/*.css
+Allow: /
+Allow: /img/
+Disallow: /fonts
+
+Sitemap: https://sibcomp19.ru/sitemap.xml
