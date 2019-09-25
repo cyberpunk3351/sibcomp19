@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic');
 
-/* main css */
+/* ///////////////////////// main css ///////////////////////// */
 html {
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
@@ -16,10 +16,10 @@ a {
   text-decoration: none;
   color: #007ea7;
 } 
-/* end main css */
+/* ///////////////////////// end main css ///////////////////////// */
 
 
-/* head */
+/* ///////////////////////// head ///////////////////////// */
 .wrapHead {
   width: 100%;
   margin: 0 auto;
@@ -68,7 +68,7 @@ a {
   content: "\f098";
   padding-right: 20px;
 }
-/* End Head */
+/* ////////////////////////// End Head ///////////////////////// */
 
 /* ////////////////////////// MENU ///////////////////////// */
 
@@ -161,6 +161,10 @@ input[type=checkbox]{
 input[type=checkbox]:checked ~ #menu{
   display: block;
 }
+/* ///////////////////////// End Menu ///////////////////////// */
+
+
+/* ///////////////////////// Carusel ///////////////////////// */
 .wrpCarusel {
   width: 100%;
   height: 500px;
@@ -198,7 +202,10 @@ input[type=checkbox]:checked ~ #menu{
   padding-top: 20px;
   float: right;
 }
+/* ///////////////////////// end Carusel ///////////////////////// */
 
+
+/* ///////////////////////// Next Block ///////////////////////// */
 .wrpNextBlock {
   width: 100%;
   background-color: #eeeeee;
@@ -226,8 +233,6 @@ overflow: hidden;
   color: #007ea7;  
 }
 
-
-
 .zagolovok span {
   font-size: 32px;
 }
@@ -238,6 +243,7 @@ overflow: hidden;
   color: #007ea7;
 }
 
+/*  ///////////////////////// Tri Blocka ///////////////////////// */
 .triBlocka {
   max-width: 1110px;
   margin: 0 auto;
@@ -283,8 +289,10 @@ overflow: hidden;
   /* прозрачность для других браузеров */
 }
 
-/*-------------------------------------------*/
+/*------------------End Tri Blocka-------------------------*/
 
+
+/* ///////////////////////// News ///////////////////////// */
 .triBlocka > .blockNews {
   width: 348px;
   /* border: 1px solid black; */
@@ -309,6 +317,8 @@ overflow: hidden;
   font-weight: bold;
 }
 
+
+/* ///////////////////////// About ///////////////////////// */
 .wrpAbout {
   width: 100%;
   background-color: #ffffff;
@@ -343,7 +353,9 @@ overflow: hidden;
     background-color: #eeeeee;    
   }
 
-  /* FOOOOTER */
+  /* ///////////////////////// End About /////////////////////////*/
+
+  /* ///////////////////////// FOOOOTER ///////////////////////// */
 
   .wrapFoo {
     width: 100%;
