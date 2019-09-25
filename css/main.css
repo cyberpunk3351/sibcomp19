@@ -1,36 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic');
 
+/* main css */
 html {
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
 }
-
 * {
   margin: 0;
   padding: 0;
 }
-
 .fa, .fas {
   padding-left: 5px;
 }
-
 a { 
   text-decoration: none;
   color: #007ea7;
 } 
+/* end main css */
 
+
+/* head */
 .wrapHead {
   width: 100%;
-  /* background-color: brown; */
   margin: 0 auto;
-
 }
 
 .container {
   width: 1110px;
   padding: 0 10px;
-  margin: 0 auto;
-  
+  margin: 0 auto;  
 }
 
 .headLogo {
@@ -69,9 +67,8 @@ a {
 .fa-phone-square:before {
   content: "\f098";
   padding-right: 20px;
-  /* font-size: 29px; */
 }
-
+/* End Head */
 
 /* ////////////////////////// MENU ///////////////////////// */
 
